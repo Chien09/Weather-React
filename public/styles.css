@@ -1,0 +1,95 @@
+/* base styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+    padding: 0 16px;
+  }
+  
+  header {
+    background-color: #42C2FF;
+    margin: auto -16px;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+
+  header a {
+      margin-left: auto;
+      text-decoration: none;
+      color: #fff; 
+  }
+
+  header a:hover{
+      color: #2D31FA;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #42C2FF;
+  }
+
+.imgLogo {
+    width: 320px;
+    height: 320px;
+}
+
+.mainDiv {
+    height: auto; 
+    margin: 10% auto; 
+    text-align: center;
+}
+
+.formSearch{
+    padding-top: 20px;
+    width:50%; 
+    margin:0 auto;
+}
+
+.inputBox {
+    border-radius: 10px;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+button {
+    border-radius: 8px;
+    height: 30px;
+    width: 70px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #42C2FF;
+    color: white;
+}
+
+.weathericon{
+  width: 160px;
+  height: 160px;
+}
