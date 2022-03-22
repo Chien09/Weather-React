@@ -31,9 +31,9 @@
   }
 
   header a {
-      margin-left: auto;
-      text-decoration: none;
-      color: #fff; 
+    margin-left: 15%;
+    text-decoration: none;
+    color: #fff; 
   }
 
   header a:hover{
@@ -53,14 +53,24 @@
   }
 
 .imgLogo {
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
 }
 
 .mainDiv {
     height: auto; 
-    margin: 10% auto; 
+    margin: 5% auto; 
     text-align: center;
+}
+
+.weatherReportDiv{
+  margin: 15% auto; 
+  text-align: center;
+}
+
+.aboutDiv{
+  margin: 15% auto; 
+  text-align: center;
 }
 
 .formSearch{
@@ -75,6 +85,11 @@
     height: 30px;
     text-align: center;
     margin-left: 5px;
+}
+
+.aboutPageText{
+  width: 80%;
+  margin: auto;
 }
 
 button {
@@ -93,3 +108,8 @@ button:hover {
   width: 160px;
   height: 160px;
 }
+
+.error{
+  color: red;
+}
+
