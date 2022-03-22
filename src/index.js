@@ -21,7 +21,7 @@ NOTE: once you made code changings the html page will update automatically at "l
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App'
+import App from './components/app'
 
 ReactDOM.render(
   <App />, document.getElementById('root')
