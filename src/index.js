@@ -17,12 +17,33 @@ it will create a React project with the directory “project-folder-name”
 NOTE: once you made code changings the html page will update automatically at "localhost:3000"
 
 • Install "react-router-dom" allowing page redirects by using "useNavigate" --> npm install react-router-dom
+
+-------------------------------------------------------------------------------------------------
+
+Deploy React application onto Heroku 
+
+-On Heroku website create App 
+-npm install express
+-Add a "app.js" file to root folder of project, NOT in the src folder 
+-In the "package.json" file change:
+  "scripts": {
+    "start": "react-scripts start",   ---> change this into "node app"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+-Build the React project --> npm run build
+-Follow command line steps on Heroku website 
+
+Reference on React Deployment on Heroku: https://www.youtube.com/watch?v=V-JKY1zJMt0
+
+Access the deployed website link--> https://react-weather-web-application.herokuapp.com
 */
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app'
+import Main from './components/app'
 
 ReactDOM.render(
-  <App />, document.getElementById('root')
+  <Main/>, document.getElementById('root')
 );
