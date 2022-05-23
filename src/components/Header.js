@@ -5,9 +5,11 @@ function Header(){
     return(
         <header>
             <h1>Daily Weather Report</h1>
-            {/* Instead of using a tag <a href="/about">About</a> we use react Link*/}
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            {/* Instead of using a tag <a href="/about">About</a> we use react <Link>*/}
+            <div>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+            </div>
         </header>
     );
 }

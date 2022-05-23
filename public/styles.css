@@ -31,8 +31,9 @@
   }
 
   header a {
-    margin-left: 15%;
+    margin-left: 40%;
     text-decoration: none;
+    font-size: larger;
     color: #fff; 
   }
 
